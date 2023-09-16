@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fontes externas</title>
+    <style>
+        @font-face {
+            font-family:'lovely';
+            src: url(Fontes/Lovely\ Valentine\ Sans.otf) format('opentype'), url(Fontes/Lovely\ Valentine\ Sans.ttf) format('truetype'), url(Fontes/Lovely\ Valentine\ Script.otf) format('opentype'), url(Fontes/Lovely\ Valentine\ Script.ttf) format('truetype');
+            font-weight: normal;
+            font-style: normal;
+
+            /*
+            Tipos de format()
+            - opentype (otf)
+            - truetype (ttf)
+            - embedded-oppentype
+            - truetype-aat (Apple Advanced Typography)
+            - svg
+            */
+
+        }
+        body{
+            font-family: 'lovely', Helvetica, sans-serif, Helvetica, sans-serif;
+        }
+
+        h1{
+            font-family: 'lovely', sans serif;
+            font-size: 3em;
+        }
+    </style>
+</head>
+<body>
+    <h1>Amor é lindo</h1>
+    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quod. Officia sint odio ipsam, molestiae optio quidem natus eius unde exercitationem est nobis nihil culpa dolore, mollitia quaerat, vel consequatur!</p>
+    <h2>Subtítulo</h2>
+    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Fugit tempora non debitis consequatur libero quos quidem fugiat optio facere. Similique voluptatibus laborum molestias sunt pariatur dolorem eligendi mollitia doloremque sint?</p>
+</body>
+</html>
